@@ -71,7 +71,7 @@ job('job_maven') {
 		        goals('test')
 				}	  
          shell('''
-		  oecho ******************* DEPLOYING JAR LOCALLAY 7*****************************
+		  oecho ******************* DEPLOYING JAR LOCALLAY 78****************************
 		  java -jar /var/lib/jenkins/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
 
 		      ''')
